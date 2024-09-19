@@ -1,3 +1,29 @@
+ローカルサーバー起動方法
+yarn start 
+→localhost:3000web上でを入力
+
+
+
+
+キャッシュのクリア
+NPMのキャッシュのクリア
+npm cache clean --force
+
+Yarnを使っている場合のキャッシュのクリア
+yarn cache clean
+
+
+
+パッケージの個別インストール
+npm install react-redux react-is
+
+
+node_modulesフォルダの再インストール
+rm -rf node_modules package-lock.json
+npm install
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +94,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# portfolio3
